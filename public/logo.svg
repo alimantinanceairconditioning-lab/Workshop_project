@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#FFFFFF" opacity="0.15"/>
+  
+  <!-- AC Unit -->
+  <rect x="50" y="60" width="100" height="70" rx="8" fill="rgba(255,255,255,0.2)" stroke="#FFFFFF" stroke-width="3"/>
+  
+  <!-- Vents -->
+  <line x1="60" y1="75" x2="140" y2="75" stroke="#FFFFFF" stroke-width="2" opacity="0.9"/>
+  <line x1="60" y1="85" x2="140" y2="85" stroke="#FFFFFF" stroke-width="2" opacity="0.9"/>
+  <line x1="60" y1="95" x2="140" y2="95" stroke="#FFFFFF" stroke-width="2" opacity="0.9"/>
+  <line x1="60" y1="105" x2="140" y2="105" stroke="#FFFFFF" stroke-width="2" opacity="0.9"/>
+  
+  <!-- Display Panel -->
+  <rect x="110" y="70" width="30" height="15" rx="3" fill="#FFD447"/>
+  
+  <!-- Cool Air Lines -->
+  <path d="M 70 135 Q 70 145, 60 155" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 90 135 Q 90 150, 80 165" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 110 135 Q 110 150, 120 165" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 130 135 Q 130 145, 140 155" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.8"/>
+  
+  <!-- Snowflake Icon -->
+  <g transform="translate(120, 77)">
+    <path d="M 0,-3 L 0,3 M -3,0 L 3,0 M -2,-2 L 2,2 M -2,2 L 2,-2" stroke="#1E3A8A" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Power Button -->
+  <circle cx="125" cy="115" r="6" fill="#FFD447" stroke="#FFFFFF" stroke-width="1.5"/>
+  <line x1="125" y1="112" x2="125" y2="118" stroke="#1E3A8A" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

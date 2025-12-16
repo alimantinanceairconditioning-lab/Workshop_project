@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+@theme {
+  --color-heroBlue: #006FF1;
+  --color-primaryBlue: #1E3A8A;
+  --color-accentPurple: #9747FF;
+  --color-accentYellow: #FFD447;
+
+  --color-cardStroke: #E2E8F0;
+  --color-cardHoverStroke: #1E3A8A;
+  
+  --color-shadowBase: 0 4px 10px 0 rgba(0,0,0,0.25);
+  --color-shadowHover: 0 10px 12px 0 rgba(0,0,0,0.25);
+
+  --color-base:var(--color-shadowBase);
+  --color-hover:var(--color-shadowHover);
+}
+
+
+.header_list_hover::after{
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #ffff;
+  bottom: -3px;
+  left: 0;
+  transition: all .7s linear;
+}
+
+.header_list_hover:hover::after{
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  
+}
+
+/* Swiper custom styles for Services section */
+/* .services-swiper {
+  padding-bottom: 40px !important;
+}
+
+.services-swiper .swiper-button-next,
+.services-swiper .swiper-button-prev {
+ 
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #1E3A8A;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.services-swiper .swiper-button-next:after,
+.services-swiper .swiper-button-prev:after {
+  font-size: 7px;
+  font-weight: bold;
+}
+
+.services-swiper .swiper-pagination-bullet {
+  background: #1E3A8A;
+  opacity: 0.3;
+}
+
+.services-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #FFD447;
+}
+
+ */
+
+ /* Swiper custom styles for Services section */
+.services-swiper {
+  padding-bottom: 40px !important;
+}
+
+/* Remove background + circle */
+.services-swiper .swiper-button-next,
+.services-swiper .swiper-button-prev {
+  background: transparent !important;
+  box-shadow: none !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+/* Restore icon visibility + size */
+.services-swiper .swiper-button-next::after,
+.services-swiper .swiper-button-prev::after {
+  display: block !important;
+  font-size: 10px !important;
+  color: #1E3A8A !important;
+  font-weight: bold !important;
+}
+
+/* Move icons near the title */
+.services-swiper .swiper-button-prev {
+  top: 57% !important;
+  left: 12px !important;
+}
+
+.services-swiper .swiper-button-next {
+  top: 57% !important;
+  right: 12px !important;
+}
+
+/* Pagination bullets */
+.services-swiper .swiper-pagination-bullet {
+  background: #1E3A8A;
+  opacity: 0.3;
+}
+
+.services-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #FFD447;
+}
