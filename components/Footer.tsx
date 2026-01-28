@@ -285,7 +285,6 @@ export default function Footer() {
                   className="h-7 w-auto rounded"
                 />
                 <div className="flex flex-col items-start">
-                  <span className="text-white/80 text-base font-bold">Nexaro</span>
                   <p className="text-white/50 text-xs">Next-gen Tech Solutions</p>
                 </div>
               </div>
